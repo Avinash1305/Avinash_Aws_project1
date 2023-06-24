@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "pappserviceplan1name": {
+            "value": "az-devops-eus-asp1"
+        },
+        "pmy_appservice1name": {
+            "value": "az-devops-dev-wapp1"
+        },
+        "pappinsightname": {
+            "value": "az-devops-dev-wapp1-ia"
+        },
+        "paz_devops_sqlserver1": {
+            "value": "az-devops-sqlserver1"
+        },
+        "padminsqlserver": {
+            "value": "sqladmin"
+        },
+        "ppasswordsqlserver": {
+            "value": "Admin@123"
+        }
+    }
+}
